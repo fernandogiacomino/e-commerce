@@ -13,7 +13,6 @@
     "depends": ["product_brand", "website_sale"],
     "data": [
         "security/ir.model.access.csv",
-        "data/website_menu.xml",
         "views/product_brand.xml",
         "views/product_brand_views.xml",
     ],
@@ -23,7 +22,8 @@
     ],
     "assets": {
         "web.assets_frontend": [
-            "/website_sale_product_brand/static/src/scss/website_sale_product_brand.scss"
+        "website_sale_product_brand/static/src/js/brand_snippet.js",
+        "website_sale_product_brand/static/src/scss/website_sale_product_brand.scss",
         ],
         "web.assets_tests": [
             "/website_sale_product_brand/static/src/js/tour.esm.js",

@@ -10,4 +10,5 @@
   > - David Vidal
   > - Carlos López
   > - Pilar Vargas
+  > - Fernando Giacomino
 
