@@ -1,3 +1,6 @@
+/** @odoo-module **/
+import publicWidget from '@web/legacy/js/public/public_widget';
+
 odoo.define('website_sale_product_brand.brand_snippet', function (require) {
     const publicWidget = require('web.public.widget');
 
