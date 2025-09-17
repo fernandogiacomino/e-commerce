@@ -1,0 +1,11 @@
+<odoo>
+    <template id="snippet_product_brands" inherit_id="website.snippets" name="Product Brands Snippet">
+        <xpath expr="//div[@id='snippet_structure']" position="inside">
+            <div class="oe_snippet"
+                 data-oe-model="ir.ui.view"
+                 data-oe-id="website_sale_product_brand.product_brands">
+                <t t-call="website_sale_product_brand.product_brands"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>
